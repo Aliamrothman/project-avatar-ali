@@ -1,0 +1,88 @@
+.experience-info2 {
+    display: flex;
+    flex-direction: column;
+    width: 411px;
+    height: 359px;
+}
+
+.experience-info__list2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-info__list-item2 {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.experience-info__list-item.selected2 {
+    color: #000;
+    background: #FFFFFF;
+}
+
+.experience-info__header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.experience-info__period2 {
+    font-size: 8px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+
+.experience-info__content2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.experience-info__job2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.experience-info__job-specialty2 {
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    padding-top: 15px;
+    white-space: nowrap;
+}
+
+.experience-info__job-botton2 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.experience-info__list-item.selected .experience-info__job-botton2 {
+    color: #ebf9f2;
+}
+
+
+.experience-info__job-name2,
+.experience-info__job-time2 {
+    font-size: 8px;
+    line-height: 150%;
+}
+
+
+.experience-info__responsibility-list2 {
+    width: 239px;
+
+}
+
+.experience-info__responsibility-list-item2 {
+    font-size: 8px;
+    line-height: 150%;
+}
